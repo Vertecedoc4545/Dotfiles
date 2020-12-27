@@ -1,0 +1,18 @@
+colors:
+  # Default colors
+  primary:
+    background: '#EDECEA'
+    foreground: '#00B7FA'
+  #  background_opacity: .2
+#cursor:
+ #   text:   '#26E090'
+ #   cursor: '#3DFC12'
+normal:
+    black:   '#151422'
+    red:     '#FF4937'
+    green:   '#10E678'
+    yellow:  '#99EB1E'
+    blue:    '#59FFE1'
+    magenta: '#E6154E'
+    cyan:    '#0B70FF'
+    white:   '#E1FEE3'
