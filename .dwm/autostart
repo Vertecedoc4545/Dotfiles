@@ -1,0 +1,11 @@
+#!/bin/sh
+
+/usr/local/libexec/polkit-gnome-authentication-agent-1 &
+polybar &
+#nitrogen --restore &
+~/.dwm/bar &
+picom &
+redshift -t 5000:2400 -l 19.260081542410674:-99.59694893955651 &
+dwm &
+xwinwrap -b -g 1366x768 -ov -ni -s -nf -- gifview -w WID /home/vaer/wall/anim/fav/arb.gif -a &
+ibus-daemon -d -x &

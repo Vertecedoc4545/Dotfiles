@@ -1,0 +1,9 @@
+#!/usr/local/bin/bash
+
+c() { 
+	 printf "%s\n" "$@" | bc -l; 
+}
+
+	
+echo $(c "($(sysctl dev.cpu.0.freq | awk '{print $2}')+$(sysctl dev.cpu.1.freq | awk '{print $2}')+$(sysctl dev.cpu.2.freq | awk '{print $2}')+$(sysctl dev.cpu.3.freq | awk '{print $2}'))/4000" | head -c 5) GHz '(ArPr)'
+

@@ -1,0 +1,4 @@
+[2021-11-13 01:03:10.458] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2021-11-13 01:03:10.703] [main] [error] [uncaught exception in main]: TypeError: e.setListeningForShutdown is not a function
+[2021-11-13 01:03:10.703] [main] [error] TypeError: e.setListeningForShutdown is not a function
+    at electron/js2c/browser_init.js:113:569

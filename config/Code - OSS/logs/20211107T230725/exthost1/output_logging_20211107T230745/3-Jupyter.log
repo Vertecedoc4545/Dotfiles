@@ -1,0 +1,107 @@
+Error 2021-11-07 23:07:46: Exception while attempting zmq : Error: No native build was found for platform=freebsd arch=x64 runtime=electron abi=87 uv=1 libc=glibc
+    at Function.load.path (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/node_modules/node-gyp-build/index.js:56:9)
+    at load (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/node_modules/node-gyp-build/index.js:21:30)
+    at Object.<anonymous> (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/node_modules/zeromq/lib/native.js:6:43)
+    at Module.u._compile (/usr/local/share/code-oss/resources/app/out/vs/loader.js:4:1311)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1108:10)
+    at Module.load (internal/modules/cjs/loader.js:935:32)
+    at Module._load (internal/modules/cjs/loader.js:776:14)
+    at Function.f._load (electron/js2c/asar_bundle.js:5:12684)
+    at Function.s._load (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:27816)
+    at Function.S._load (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:24532)
+    at Function.a._load (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:96:58822)
+    at Module.require (internal/modules/cjs/loader.js:959:19)
+    at v (/usr/local/share/code-oss/resources/app/out/vs/loader.js:4:694)
+    at Object.<anonymous> (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/node_modules/zeromq/lib/index.js:3:16)
+    at Module.u._compile (/usr/local/share/code-oss/resources/app/out/vs/loader.js:4:1311)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1108:10)
+    at Module.load (internal/modules/cjs/loader.js:935:32)
+    at Module._load (internal/modules/cjs/loader.js:776:14)
+    at Function.f._load (electron/js2c/asar_bundle.js:5:12684)
+    at Function.s._load (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:27816)
+    at Function.S._load (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:24532)
+    at Function.a._load (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:96:58822)
+    at Module.require (internal/modules/cjs/loader.js:959:19)
+    at v (/usr/local/share/code-oss/resources/app/out/vs/loader.js:4:694)
+    at Object.<anonymous> (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:37:295866)
+    at n (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:1:186)
+    at d.zmqSupported (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:90:443815)
+    at d.isSupportedForLocalLaunch (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:90:443465)
+    at d.supported (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:90:443375)
+    at Object.t.registerTypes (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:805868)
+    at /usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:271541
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at /usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:37:823700
+    at t.activate (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:37:823387)
+    at async Promise.all (index 1)
+Info 2021-11-07 23:07:46: id is e5e9e767-c3bc-4080-92fc-94566ea9597d
+Error 2021-11-07 23:07:46: extension activation failed Error: [ms-toolsai.jupyter]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+    at m (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:77590)
+    at f (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:77537)
+    at Object.onDidChangeCellExecutionState (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:96:39892)
+    at new d (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:90:454283)
+    at Object.t.resolveInstance (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:238445)
+    at /usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:237650
+    at Array.map (<anonymous>)
+    at Object.t.resolveInstance (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:238215)
+    at /usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:237650
+    at Array.map (<anonymous>)
+    at Object.t.resolveInstance (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:238215)
+    at /usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:237650
+    at /usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:236598
+    at Array.map (<anonymous>)
+    at /usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:236570
+    at Array.map (<anonymous>)
+    at Object.t.resolveInstance (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:238215)
+    at /usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:237650
+    at Object.t.resolve (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:237913)
+    at /usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:229010
+    at e._get (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:228776)
+    at e.get (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:227488)
+    at a.get (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:90:508810)
+    at /usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:271698
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at /usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:37:823700
+    at t.activate (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:37:823387)
+    at async Promise.all (index 1)
+Error 2021-11-07 23:07:46: Failed to active the Jupyter Extension Error: [ms-toolsai.jupyter]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+    at m (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:77590)
+    at f (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:77537)
+    at Object.onDidChangeCellExecutionState (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:96:39892)
+    at new d (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:90:454283)
+    at Object.t.resolveInstance (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:238445)
+    at /usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:237650
+    at Array.map (<anonymous>)
+    at Object.t.resolveInstance (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:238215)
+    at /usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:237650
+    at Array.map (<anonymous>)
+    at Object.t.resolveInstance (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:238215)
+    at /usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:237650
+    at /usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:236598
+    at Array.map (<anonymous>)
+    at /usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:236570
+    at Array.map (<anonymous>)
+    at Object.t.resolveInstance (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:238215)
+    at /usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:237650
+    at Object.t.resolve (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:237913)
+    at /usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:229010
+    at e._get (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:228776)
+    at e.get (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:227488)
+    at a.get (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:90:508810)
+    at /usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:52:271698
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at /usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:37:823700
+    at t.activate (/usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension.js:37:823387)
+    at async Promise.all (index 1)
+Error 2021-11-07 23:07:47: Encountered error while initializing secret for notebook trust: Error: Cannot generate random bytes for unknown operating system.
+Info 2021-11-07 23:38:03: Shutting down notebooks for f46b5b1c-0cc6-472b-bf6f-61578f270c6a
+Info 2021-11-07 23:38:03: Disposing HostJupyterExecution e77a1890-7dec-4e25-afc8-328097038ae0
+Info 2021-11-07 23:38:03: Disposing super HostJupyterExecution e77a1890-7dec-4e25-afc8-328097038ae0
+Info 2021-11-07 23:38:03: Disposing HostJupyterExecution e77a1890-7dec-4e25-afc8-328097038ae0
+Info 2021-11-07 23:38:03: Finished disposing HostJupyterExecution  e77a1890-7dec-4e25-afc8-328097038ae0
+Info 2021-11-07 23:38:04: Disposing HostJupyterExecution e77a1890-7dec-4e25-afc8-328097038ae0
+Info 2021-11-07 23:38:04: Finished disposing HostJupyterExecution  e77a1890-7dec-4e25-afc8-328097038ae0
+Info 2021-11-07 23:38:04: Getting live share API during dispose HostJupyterExecution e77a1890-7dec-4e25-afc8-328097038ae0
+Info 2021-11-07 23:38:04: Detaching HostJupyterExecution e77a1890-7dec-4e25-afc8-328097038ae0
+Info 2021-11-07 23:38:04: Cleaning up server cache e77a1890-7dec-4e25-afc8-328097038ae0
+Info 2021-11-07 23:38:04: Finished disposing HostJupyterExecution  e77a1890-7dec-4e25-afc8-328097038ae0

@@ -1,0 +1,150 @@
+User belongs to experiment group 'CollectLSRequestTiming - control'
+User belongs to experiment group 'CollectNodeLSRequestTiming - experiment'
+> python3.7 ~/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python3.6 ~/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python3 ~/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python2 ~/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> conda --version
+> pyenv root
+> conda info --json
+> pyenv root
+Python interpreter path: /usr/local/bin/python
+Starting Pylance language server.
+Error 2021-11-07 22:49:13: Failed to start language server, Class name = r, completed in 70ms, has a falsy return value, Arg 1: <Uri:/usr/home/vaer/gcl/CodeArt/install.py>, Arg 2: {"architecture":3,"path":"/usr/local/bin/python","version":{"options":{"loose":false,"includePrerelease":false},"loose":false,"raw":"3.8.12","major":3,"minor":8,"patch":12,"prerelease":[],"build":[],"version":"3.8.12"},"sysVersion":"3.8.12 (default, Oct  5 2021, 01:10:12) \n[Clang 11.0.1 (git@github.com:llvm/llvm-project.git llvmorg-11.0.1-0-g43ff75f2c","sysPrefix":"/usr/local","fileHash":"e899f73e94c136c58073ab059f04ba5c9aa95be0f422d07c417bdd53fc7ef6e723762427866b7bc3d9f99cf4450b8b482c277396b23e036855d8c45f17545e0d","envType":"Unknown","displayName":"Python 3.8.12 64-bit","store":true}, Return Value: undefined Error: ms-python.vscode-pylance not installed
+    at d.getCurrentLanguageServerDirectory (/usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/out/client/extension.js:59:233011)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at r.start (/usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/out/client/extension.js:59:239427)
+Error 2021-11-07 22:49:13: Error: ms-python.vscode-pylance not installed
+    at d.getCurrentLanguageServerDirectory (/usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/out/client/extension.js:59:233011)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at r.start (/usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/out/client/extension.js:59:239427)
+We encountered an issue starting the language server. Reverting to Jedi language engine. Check the Python output panel for details.
+Error 2021-11-07 22:49:13: Failed to activate language server, Class name = a, completed in 86ms, has a falsy return value, Arg 1: <Uri:/usr/home/vaer/gcl/CodeArt/install.py>, Arg 2: {"architecture":3,"path":"/usr/local/bin/python","version":{"options":{"loose":false,"includePrerelease":false},"loose":false,"raw":"3.8.12","major":3,"minor":8,"patch":12,"prerelease":[],"build":[],"version":"3.8.12"},"sysVersion":"3.8.12 (default, Oct  5 2021, 01:10:12) \n[Clang 11.0.1 (git@github.com:llvm/llvm-project.git llvmorg-11.0.1-0-g43ff75f2c","sysPrefix":"/usr/local","fileHash":"e899f73e94c136c58073ab059f04ba5c9aa95be0f422d07c417bdd53fc7ef6e723762427866b7bc3d9f99cf4450b8b482c277396b23e036855d8c45f17545e0d","envType":"Unknown","displayName":"Python 3.8.12 64-bit","store":true}, Return Value: undefined Error: ms-python.vscode-pylance not installed
+    at d.getCurrentLanguageServerDirectory (/usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/out/client/extension.js:59:233011)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at r.start (/usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/out/client/extension.js:59:239427)
+Error 2021-11-07 22:49:13: Failed to check if file needs to be fixed EntryNotFound (FileSystemError): Unable to read file '/usr/home/vaer/gcl/CodeArt/.vscode/settings.json' (Error: Unable to resolve non-existing file '/usr/home/vaer/gcl/CodeArt/.vscode/settings.json')
+    at _handleError (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:156171)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at y.readText (/usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/out/client/extension.js:9:344717)
+    at p.doesFileNeedToBeFixed (/usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/out/client/extension.js:59:581560)
+    at /usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/out/client/extension.js:59:580687
+    at async Promise.all (index 0)
+    at p.getFilesToBeFixed (/usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/out/client/extension.js:59:580633)
+    at p.updateTestSettings (/usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/out/client/extension.js:59:580260) {
+  code: 'FileNotFound'
+}
+> pyenv root
+> pyenv root
+> pyenv root
+> pyenv root
+> conda --version
+> pyenv root
+> /usr/local/bin/python ~/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.prefix)"
+cwd: ~/gcl/CodeArt
+> /usr/local/bin/python ~/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.prefix)"
+cwd: ~/gcl/CodeArt
+> /usr/local/bin/python ~/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+cwd: ~/gcl/CodeArt
+> /usr/local/bin/python ~/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+cwd: ~/gcl/CodeArt
+> /usr/local/bin/python ~/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/pyvsc-run-isolated.py -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"
+cwd: ~/gcl/CodeArt
+> /usr/local/bin/python ~/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/pyvsc-run-isolated.py -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"
+cwd: ~/gcl/CodeArt
+> /usr/local/bin/python ~/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/pyvsc-run-isolated.py site --user-site
+cwd: ~/gcl/CodeArt
+> /usr/local/bin/python ~/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/pyvsc-run-isolated.py site --user-site
+cwd: ~/gcl/CodeArt
+> /usr/local/bin/python ~/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/pyvsc-run-isolated.py ~/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py
+> /usr/local/bin/python ~/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/pyvsc-run-isolated.py ~/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py
+> pyenv root
+> pyenv root
+> pyenv root
+> pyenv root
+> pyenv root
+Error 2021-11-07 22:50:17: stderr jediProxy Error (stderr) /usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Providing the line is now done in the functions themselves like `Script(...).complete(line, column)`
+  script = jedi.Script(
+
+Error 2021-11-07 22:50:17: stderr jediProxy Error (stderr) /usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Providing the column is now done in the functions themselves like `Script(...).complete(line, column)`
+  script = jedi.Script(
+/usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Deprecated since version 0.17.0. Use the project API instead, which means Script(project=Project(dir, sys_path=sys_path)) instead.
+  script = jedi.Script(
+
+Error 2021-11-07 22:50:17: stderr jediProxy Error (stderr) /usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:624: DeprecationWarning: Deprecated since version 0.16.0. Use Script(...).infer instead.
+  script.goto_definitions(), request["id"]
+
+Error 2021-11-07 22:50:17: stderr jediProxy Error (stderr) /usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Providing the line is now done in the functions themselves like `Script(...).complete(line, column)`
+  script = jedi.Script(
+/usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Providing the column is now done in the functions themselves like `Script(...).complete(line, column)`
+  script = jedi.Script(
+
+Error 2021-11-07 22:50:17: stderr jediProxy Error (stderr) /usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Deprecated since version 0.17.0. Use the project API instead, which means Script(project=Project(dir, sys_path=sys_path)) instead.
+  script = jedi.Script(
+
+Error 2021-11-07 22:50:17: stderr jediProxy Error (stderr) /usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:624: DeprecationWarning: Deprecated since version 0.16.0. Use Script(...).infer instead.
+  script.goto_definitions(), request["id"]
+
+Error 2021-11-07 22:50:48: stderr jediProxy Error (stderr) /usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Providing the line is now done in the functions themselves like `Script(...).complete(line, column)`
+  script = jedi.Script(
+
+Error 2021-11-07 22:50:48: stderr jediProxy Error (stderr) /usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Providing the column is now done in the functions themselves like `Script(...).complete(line, column)`
+  script = jedi.Script(
+/usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Deprecated since version 0.17.0. Use the project API instead, which means Script(project=Project(dir, sys_path=sys_path)) instead.
+  script = jedi.Script(
+
+Error 2021-11-07 22:50:48: stderr jediProxy Error (stderr) /usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:624: DeprecationWarning: Deprecated since version 0.16.0. Use Script(...).infer instead.
+  script.goto_definitions(), request["id"]
+
+> pyenv root
+> pyenv root
+Error 2021-11-07 22:51:16: stderr jediProxy Error (stderr) /usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Providing the line is now done in the functions themselves like `Script(...).complete(line, column)`
+  script = jedi.Script(
+
+Error 2021-11-07 22:51:16: stderr jediProxy Error (stderr) /usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Providing the column is now done in the functions themselves like `Script(...).complete(line, column)`
+  script = jedi.Script(
+/usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Deprecated since version 0.17.0. Use the project API instead, which means Script(project=Project(dir, sys_path=sys_path)) instead.
+  script = jedi.Script(
+/usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:624: DeprecationWarning: Deprecated since version 0.16.0. Use Script(...).infer instead.
+  script.goto_definitions(), request["id"]
+
+Error 2021-11-07 22:56:41: stderr jediProxy Error (stderr) /usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Providing the line is now done in the functions themselves like `Script(...).complete(line, column)`
+  script = jedi.Script(
+/usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Providing the column is now done in the functions themselves like `Script(...).complete(line, column)`
+  script = jedi.Script(
+
+Error 2021-11-07 22:56:41: stderr jediProxy Error (stderr) /usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Deprecated since version 0.17.0. Use the project API instead, which means Script(project=Project(dir, sys_path=sys_path)) instead.
+  script = jedi.Script(
+/usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:624: DeprecationWarning: Deprecated since version 0.16.0. Use Script(...).infer instead.
+  script.goto_definitions(), request["id"]
+
+> pyenv root
+Error 2021-11-07 22:58:04: stderr jediProxy Error (stderr) /usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Providing the line is now done in the functions themselves like `Script(...).complete(line, column)`
+  script = jedi.Script(
+
+Error 2021-11-07 22:58:04: stderr jediProxy Error (stderr) /usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Providing the column is now done in the functions themselves like `Script(...).complete(line, column)`
+  script = jedi.Script(
+/usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Deprecated since version 0.17.0. Use the project API instead, which means Script(project=Project(dir, sys_path=sys_path)) instead.
+  script = jedi.Script(
+
+Error 2021-11-07 22:58:04: stderr jediProxy Error (stderr) /usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:624: DeprecationWarning: Deprecated since version 0.16.0. Use Script(...).infer instead.
+  script.goto_definitions(), request["id"]
+
+> pyenv root
+Error 2021-11-07 22:58:07: stderr jediProxy Error (stderr) /usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Providing the line is now done in the functions themselves like `Script(...).complete(line, column)`
+  script = jedi.Script(
+/usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Providing the column is now done in the functions themselves like `Script(...).complete(line, column)`
+  script = jedi.Script(
+
+Error 2021-11-07 22:58:07: stderr jediProxy Error (stderr) /usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:590: DeprecationWarning: Deprecated since version 0.17.0. Use the project API instead, which means Script(project=Project(dir, sys_path=sys_path)) instead.
+  script = jedi.Script(
+/usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/pythonFiles/completion.py:624: DeprecationWarning: Deprecated since version 0.16.0. Use Script(...).infer instead.
+  script.goto_definitions(), request["id"]
+
+> pyenv root
+> pyenv root
+> pyenv root
+> pyenv root
+> pyenv root

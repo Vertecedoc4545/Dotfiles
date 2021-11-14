@@ -1,0 +1,40 @@
+[2021-11-07 22:18:41.114] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-11-07 22:19:00.805] [sharedprocess] [error] Failed to install extension: nord.nord Unable to install 'nord.nord' extension because it is not compatible with the current version of VS Code (version 1.56.2).
+[2021-11-07 22:21:57.016] [sharedprocess] [info] Installing extension: feb19.theme-forest
+[2021-11-07 22:21:57.998] [sharedprocess] [info] Downloaded extension: feb19.theme-forest /usr/home/vaer/.config/Code - OSS/CachedExtensionVSIXs/feb19.theme-forest-0.1.1
+[2021-11-07 22:21:58.129] [sharedprocess] [info] Extracted extension to /usr/home/vaer/.vscode-oss/extensions/.e95a87c8-d65c-437b-befc-b039838a6dcc: feb19.theme-forest
+[2021-11-07 22:21:58.165] [sharedprocess] [info] Renamed to /usr/home/vaer/.vscode-oss/extensions/feb19.theme-forest-0.1.1
+[2021-11-07 22:21:58.168] [sharedprocess] [info] Installation completed. feb19.theme-forest
+[2021-11-07 22:21:58.198] [sharedprocess] [info] Extensions installed successfully: feb19.theme-forest
+[2021-11-07 22:22:08.674] [sharedprocess] [info] Installing extension: sainnhe.forest-night
+[2021-11-07 22:22:09.587] [sharedprocess] [info] Downloaded extension: sainnhe.forest-night /usr/home/vaer/.config/Code - OSS/CachedExtensionVSIXs/sainnhe.forest-night-0.1.6
+[2021-11-07 22:22:09.644] [sharedprocess] [info] Extracted extension to /usr/home/vaer/.vscode-oss/extensions/.60ea3bda-ad99-4a19-99af-f20a49a727f5: sainnhe.forest-night
+[2021-11-07 22:22:09.676] [sharedprocess] [info] Renamed to /usr/home/vaer/.vscode-oss/extensions/sainnhe.forest-night-0.1.6
+[2021-11-07 22:22:09.683] [sharedprocess] [info] Installation completed. sainnhe.forest-night
+[2021-11-07 22:22:10.121] [sharedprocess] [info] Installing extension: sainnhe.everforest
+[2021-11-07 22:22:11.085] [sharedprocess] [info] Downloaded extension: sainnhe.everforest /usr/home/vaer/.config/Code - OSS/CachedExtensionVSIXs/sainnhe.everforest-0.1.5
+[2021-11-07 22:22:11.350] [sharedprocess] [info] Extracted extension to /usr/home/vaer/.vscode-oss/extensions/.9136b99c-753d-4067-8ea5-508cc3453793: sainnhe.everforest
+[2021-11-07 22:22:11.379] [sharedprocess] [info] Renamed to /usr/home/vaer/.vscode-oss/extensions/sainnhe.everforest-0.1.5
+[2021-11-07 22:22:11.382] [sharedprocess] [info] Installation completed. sainnhe.everforest
+[2021-11-07 22:22:11.397] [sharedprocess] [info] Extensions installed successfully: sainnhe.everforest
+[2021-11-07 22:22:11.399] [sharedprocess] [info] Extensions installed successfully: sainnhe.forest-night
+[2021-11-07 22:22:40.131] [sharedprocess] [error] Failed to install extension: xinkechen.foggy-forest-theme Unable to install 'xinkechen.foggy-forest-theme' extension because it is not compatible with the current version of VS Code (version 1.56.2).
+[2021-11-07 22:22:47.280] [sharedprocess] [error] Failed to install extension: xinkechen.foggy-forest-theme Unable to install 'xinkechen.foggy-forest-theme' extension because it is not compatible with the current version of VS Code (version 1.56.2).
+[2021-11-07 22:22:51.127] [sharedprocess] [info] Installing extension: amirabbas.blue-forest
+[2021-11-07 22:22:52.862] [sharedprocess] [info] Downloaded extension: amirabbas.blue-forest /usr/home/vaer/.config/Code - OSS/CachedExtensionVSIXs/amirabbas.blue-forest-1.3.6
+[2021-11-07 22:22:53.080] [sharedprocess] [info] Extracted extension to /usr/home/vaer/.vscode-oss/extensions/.4c457881-a610-468c-a060-64425fb50b41: amirabbas.blue-forest
+[2021-11-07 22:22:53.116] [sharedprocess] [info] Renamed to /usr/home/vaer/.vscode-oss/extensions/amirabbas.blue-forest-1.3.6
+[2021-11-07 22:22:53.125] [sharedprocess] [info] Installation completed. amirabbas.blue-forest
+[2021-11-07 22:22:53.145] [sharedprocess] [info] Extensions installed successfully: amirabbas.blue-forest
+[2021-11-07 22:23:07.235] [sharedprocess] [info] Installing extension: casseopeian.forest-witch
+[2021-11-07 22:23:08.164] [sharedprocess] [info] Downloaded extension: casseopeian.forest-witch /usr/home/vaer/.config/Code - OSS/CachedExtensionVSIXs/casseopeian.forest-witch-0.0.6
+[2021-11-07 22:23:08.215] [sharedprocess] [info] Extracted extension to /usr/home/vaer/.vscode-oss/extensions/.2c897502-9928-4f02-a637-4998167a42c9: casseopeian.forest-witch
+[2021-11-07 22:23:08.329] [sharedprocess] [info] Renamed to /usr/home/vaer/.vscode-oss/extensions/casseopeian.forest-witch-0.0.6
+[2021-11-07 22:23:08.331] [sharedprocess] [info] Installation completed. casseopeian.forest-witch
+[2021-11-07 22:23:08.349] [sharedprocess] [info] Extensions installed successfully: casseopeian.forest-witch
+[2021-11-07 22:23:15.087] [sharedprocess] [info] Installing extension: jasontheiler.kelp-forest-theme-vscode
+[2021-11-07 22:23:16.783] [sharedprocess] [info] Downloaded extension: jasontheiler.kelp-forest-theme-vscode /usr/home/vaer/.config/Code - OSS/CachedExtensionVSIXs/jasontheiler.kelp-forest-theme-vscode-1.1.2
+[2021-11-07 22:23:16.882] [sharedprocess] [info] Extracted extension to /usr/home/vaer/.vscode-oss/extensions/.437ffdc5-88e0-436a-b970-9deb41692458: jasontheiler.kelp-forest-theme-vscode
+[2021-11-07 22:23:16.915] [sharedprocess] [info] Renamed to /usr/home/vaer/.vscode-oss/extensions/jasontheiler.kelp-forest-theme-vscode-1.1.2
+[2021-11-07 22:23:16.921] [sharedprocess] [info] Installation completed. jasontheiler.kelp-forest-theme-vscode
+[2021-11-07 22:23:16.935] [sharedprocess] [info] Extensions installed successfully: jasontheiler.kelp-forest-theme-vscode

@@ -1,8 +1,27 @@
-# Dotfiles_ArchBspwmnime
-Yeah Hello everyone for use this dotfiles only copy this to your .config folder in your home folder and go to all folders of this dotfiles and in the main configuration file of this change the path to the files refired in them files for example: in the bspwmrc is refired /home/vertecedoc/walpapers/ArchB.jpg to the path of your user, for example: your user is Klolek in this case change /home/vertecedoc/walpapers/ArchB.jpg to /home/klolek/walpapers/ArchB.jpg and do it for all main config files though in the most config files won't be nesesary given that have ~ instead of /home/user
+# Wellcome tho the NordicDragon(with Chadwm)
+this dotfiles have to be modified for linux beacause this are dotfiles for FreeBsd, but are actually to similar so don't scare
 
-posdata: you need to move the folder wallpapers to your home directory and here is a somes wallpapers of anime, skyrim, archlinux, linux, zelda for chanche it you need to change the bspwmrc in the line of feh --bg-fill /home/vertecedoc/Wallpapers/ArchB.png & remplacing the word ArchB.png for the name of the wallpaper that you want for have 2 monitors comment the line 13 in the bspwmrc and uncomment the lines 9 and 10 of the bspwmrc file and change the word eDP1 and DP2 for the words of your monitor adapter to know that use the command xrandr -q and there will be the monitor adapters for example in my case:
+### ALLERT!, I use Latinoamerican DVORAK keyboard so check first keybindings on chadwm/chadwm/config.h and change the keyboard layout on sys/etc/rc.conf  and on .dwm/autostart for the xkb layout
 
-Screen 0: minimum 8 x 8, current 1366 x 768, maximum 32767 x 32767 eDP1 connected primary 1366x768+0+0 (normal left inverted right x axis y axis) 340mm x 190mm 1366x768 60.00*+ 1280x720 59.86 60.00 59.74 1024x768 60.00 1024x576 60.00 59.90 59.82 960x540 60.00 59.63 59.82 800x600 60.32 56.25 864x486 60.00 59.92 59.57 640x480 59.94 720x405 59.51 60.00 58.99 680x384 60.00 640x360 59.84 59.32 60.00 DP1 disconnected (normal left inverted right x axis y axis) DP2 disconnected (normal left inverted right x axis y axis) HDMI1 disconnected (normal left inverted right x axis y axis) HDMI2 disconnected (normal left inverted right x axis y axis) VIRTUAL1 disconnected (normal left inverted right x axis y axis)
+## Estructure
 
-so my first adapter is eDP1 and my VGA output is DP2 because this you need to change the adapters
+- On the sys folder exit all the system wide configurations
+    - sys/home/ are the .local/share folder
+    - sys/etc = /etc
+    - sys/usr/local/etc 
+    - sys/usr/local/share for slim ([batik theme](https://www.deviantart.com/owl4ce/art/Floflo-Batik-SLiM-Themes-861519439)
+    - sys/boot/ for loader.conf
+- config fohder is for user .config
+- chadwm folder is for the dwm config, needs zapcc as campiler, for change that change the CC variable on chadwm/chadwm/config.mk for example to gcc or cc and is installed with `doas/sudo make install` on the folder chadwmchadwm 
+- wall is the folder for my animated wallpapers, (needs [original xwinwrap](https://github.com/mmhobi7/xwinwrap) and if you are on *\*bsd* you have to campile from saurce **gifscale**, [gifscicle compileing instructions](https://github.com/kohler/gifsicle) [(gifscile source tarball, not do git clone) (also do ./configure --prefix=/usr/local/ on \*bsd)](http://www.lcdf.org/gifsicle/)
+    - For change the animated wallpaper change the file on .dwm/autostart for example to $(find /home/usr/wall/anim -type f | sort | shuf | head -n 1) for a rondom wallpaper
+    - For an static wallpaper comment the line of the xwinwrap command on the .dwm/autostart and put something with feh or nitrogen
+        - my static wallpapers are on config/wallpaper
+#### NOTES:
++ also campile and install from source the [janaburg's picom](https://github.com/jonaburg/picom)
+- default shell is fish, not needed
+    - for the dragon `neofetch --ascii ~/.config/neofetch/small_freebsd` or set an alias like `alias neofetch 'neofetch --ascii ~/.config/neofetch/small_freebsd'` for fish or `alias neofetch='neofetch --ascii ~/.config/neofetch/small_freebsd'` for posix compliant 
+- for a correct login copy sys/usr/local/etc/X11/xinit(folder) to your systemwide xinit, for example for linux /usr/local/share/X11/ or to your user .xinitrc (for this solution you have to change the login command on sys/usr/local/etc/slim.conf to execute the lacation of the xinitrc file)
+- for slim working you need bash installed or shange the init shell on sys/usr/local/etc/slim.conf on login\_command
+- most part of my configs on sys/etc are only for intel processors, also you need to install some modules like acpi\_video for blacklight(on sys/etc/devd are deffined the keybindings for blaglight, intel only, you have a [guide here for non intel blacklight](https://www.davidschlachter.com/misc/freebsd-acpi_video-thinkpad-display-brightness)
+- Useful Setup guides for freebsd are in [this post ](https://forums.freebsd.org/threads/how-to-setup-a-microphone-correctly-freebsd.82804/)
