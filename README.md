@@ -3,6 +3,12 @@ this dotfiles have to be modified for linux beacause this are dotfiles for FreeB
 
 ### ALLERT!, I use Latinoamerican DVORAK keyboard so check first keybindings on chadwm/chadwm/config.h and change the keyboard layout on sys/etc/rc.conf  and on .dwm/autostart for the xkb layout
 
+### ALERT!!!!!!!, Also at the moment of compiling dwm you will have problems with truetype2 and X11 libraryes on /usr/local/include/TrueType2  and /usr/local/include/X11 specifically with the #include<> of the files that are inside the subfolders for example /usr/local/include/TrueType2/config and for solve this you have to change the actual code of the libraries on the #include<> section, here an example
+
+#include  <config/somo.h> -> #include <X11/config/somo.h>
+
+in the folder sys/usr/local/include are the actual modified libraries, but not trust on this because could be not upgrated so first check the date of the commit where i uploaded those files before use them
+
 ## Estructure
 
 - On the sys folder exit all the system wide configurations
