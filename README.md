@@ -7,6 +7,7 @@ this dotfiles have to be modified for linux beacause this are dotfiles for FreeB
 
 #include  <config/somo.h> -> #include <X11/config/somo.h>
 
+#todo upload sys/usr/include libraries
 in the folder sys/usr/local/include are the actual modified libraries, but not trust on this because could be not upgrated so first check the date of the commit where i uploaded those files before use them
 
 ## Estructure
