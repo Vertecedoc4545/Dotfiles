@@ -1,0 +1,6 @@
+add path 'drm/*' mode 0666 group video
+
+add path 'dri/*' mode 0666 group video
+
+
+add path 'ttyv1' mode 0666 group wheel

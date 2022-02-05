@@ -1,0 +1,346 @@
+06/11/21 (00:49:15) | ERROR: Data collection thread failed with exception: Sign not allowed in string format specifier
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 2939, in _runner
+    collector._draw()
+  File "/usr/local/bin/bpytop", line 3971, in _draw
+    ProcBox._draw_fg()
+  File "/usr/local/bin/bpytop", line 2719, in _draw_fg
+    label = (f'{THEME.title}{Fx.b}{Mv.to(y, x)}{"Pid:":>7} {"Program:" if prog_len > 8 else "Prg:":<{prog_len}}' + (f'{"Arguments:":<{arg_len-4}}' if arg_len else "") +
+ValueError: Sign not allowed in string format specifier
+06/11/21 (00:49:15) | WARNING: Exiting with errorcode (1). Runtime 0:00:00 
+
+06/11/21 (00:49:23) | WARNING: Exiting with errorcode (1). Runtime 0:00:09 
+
+06/11/21 (00:49:42) | ERROR: <urlopen error _ssl.c:1119: The handshake operation timed out>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/urllib/request.py", line 1354, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/local/lib/python3.8/http/client.py", line 1425, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+  File "/usr/local/lib/python3.8/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/local/lib/python3.8/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/usr/local/lib/python3.8/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1119: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5009, in _checker
+    with urllib.request.urlopen("https://github.com/aristocratos/bpytop/raw/master/bpytop.py", timeout=5) as source: # type: ignore
+  File "/usr/local/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/local/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/local/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/local/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/local/lib/python3.8/urllib/request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/usr/local/lib/python3.8/urllib/request.py", line 1357, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error _ssl.c:1119: The handshake operation timed out>
+07/11/21 (02:32:58) | ERROR: Data collection thread failed with exception: Format specifier missing precision
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 2939, in _runner
+    collector._draw()
+  File "/usr/local/bin/bpytop", line 3971, in _draw
+    ProcBox._draw_fg()
+  File "/usr/local/bin/bpytop", line 2829, in _draw_fg
+    f'{c_color}{name:<{offset}.{offset}} {end}' +
+ValueError: Format specifier missing precision
+07/11/21 (02:32:58) | WARNING: Exiting with errorcode (1). Runtime 0:00:00 
+
+07/11/21 (03:05:30) | ERROR: Exception when sending signal 9 to pid 61338
+07/11/21 (03:05:30) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:34) | ERROR: Exception when sending signal 9 to pid 61334
+07/11/21 (03:05:34) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:35) | ERROR: Exception when sending signal 9 to pid 61334
+07/11/21 (03:05:35) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:35) | ERROR: Exception when sending signal 9 to pid 61334
+07/11/21 (03:05:35) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:35) | ERROR: Exception when sending signal 2 to pid 61334
+07/11/21 (03:05:35) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:37) | ERROR: Exception when sending signal 9 to pid 61338
+07/11/21 (03:05:37) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:38) | ERROR: Exception when sending signal 9 to pid 61334
+07/11/21 (03:05:38) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:39) | ERROR: Exception when sending signal 9 to pid 61338
+07/11/21 (03:05:39) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:39) | ERROR: Exception when sending signal 9 to pid 61338
+07/11/21 (03:05:39) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:40) | ERROR: Exception when sending signal 9 to pid 61338
+07/11/21 (03:05:40) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:40) | ERROR: Exception when sending signal 9 to pid 61338
+07/11/21 (03:05:40) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:40) | ERROR: Exception when sending signal 9 to pid 61338
+07/11/21 (03:05:40) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:41) | ERROR: Exception when sending signal 15 to pid 61338
+07/11/21 (03:05:41) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:41) | ERROR: Exception when sending signal 15 to pid 61338
+07/11/21 (03:05:41) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:41) | ERROR: Exception when sending signal 15 to pid 61338
+07/11/21 (03:05:41) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:42) | ERROR: Exception when sending signal 15 to pid 61334
+07/11/21 (03:05:42) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:42) | ERROR: Exception when sending signal 15 to pid 61334
+07/11/21 (03:05:42) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:42) | ERROR: Exception when sending signal 15 to pid 61334
+07/11/21 (03:05:42) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:44) | ERROR: Exception when sending signal 15 to pid 61338
+07/11/21 (03:05:44) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:44) | ERROR: Exception when sending signal 15 to pid 61338
+07/11/21 (03:05:44) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:45) | ERROR: Exception when sending signal 15 to pid 61334
+07/11/21 (03:05:45) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+07/11/21 (03:05:46) | ERROR: Exception when sending signal 15 to pid 61334
+07/11/21 (03:05:46) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+08/11/21 (07:24:44) | ERROR: <urlopen error [Errno 8] Name does not resolve>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/urllib/request.py", line 1354, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/local/lib/python3.8/http/client.py", line 1418, in connect
+    super().connect()
+  File "/usr/local/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/local/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/local/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] Name does not resolve
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5009, in _checker
+    with urllib.request.urlopen("https://github.com/aristocratos/bpytop/raw/master/bpytop.py", timeout=5) as source: # type: ignore
+  File "/usr/local/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/local/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/local/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/local/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/local/lib/python3.8/urllib/request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/usr/local/lib/python3.8/urllib/request.py", line 1357, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] Name does not resolve>
+08/11/21 (07:25:13) | ERROR: Input thread failed with exception: (6, 'Device not configured')
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 985, in _get_key
+    input_key = ""
+  File "/usr/local/bin/bpytop", line 778, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (6, 'Device not configured')
+08/11/21 (15:44:00) | ERROR: The read operation timed out
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5009, in _checker
+    with urllib.request.urlopen("https://github.com/aristocratos/bpytop/raw/master/bpytop.py", timeout=5) as source: # type: ignore
+  File "/usr/local/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/local/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/local/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/local/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/local/lib/python3.8/urllib/request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/usr/local/lib/python3.8/urllib/request.py", line 1358, in do_open
+    r = h.getresponse()
+  File "/usr/local/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/local/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/local/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/local/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+08/11/21 (16:28:02) | ERROR: Input thread failed with exception: (6, 'Device not configured')
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 985, in _get_key
+    input_key = ""
+  File "/usr/local/bin/bpytop", line 778, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (6, 'Device not configured')
+08/11/21 (16:28:02) | ERROR: Data collection thread failed with exception: [Errno 6] Device not configured
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 2945, in _runner
+    else: Draw.out()
+  File "/usr/local/bin/bpytop", line 1071, in out
+    cls.now(out)
+  File "/usr/local/bin/bpytop", line 1019, in now
+    print(*args, sep="", end="", flush=True)
+OSError: [Errno 6] Device not configured
+09/11/21 (13:43:00) | ERROR: Exception when sending signal 9 to pid 45680
+09/11/21 (13:43:00) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+09/11/21 (13:43:00) | ERROR: Exception when sending signal 9 to pid 1664
+09/11/21 (13:43:00) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5459, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+09/11/21 (13:43:11) | ERROR: <urlopen error timed out>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/urllib/request.py", line 1354, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/local/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/local/lib/python3.8/http/client.py", line 1418, in connect
+    super().connect()
+  File "/usr/local/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/local/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 5009, in _checker
+    with urllib.request.urlopen("https://github.com/aristocratos/bpytop/raw/master/bpytop.py", timeout=5) as source: # type: ignore
+  File "/usr/local/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/local/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/local/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/local/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/local/lib/python3.8/urllib/request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/usr/local/lib/python3.8/urllib/request.py", line 1357, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error timed out>

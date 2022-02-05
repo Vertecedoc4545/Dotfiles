@@ -1,0 +1,93 @@
+[2021-11-13 01:03:24.681] [exthost] [info] extension host started
+[2021-11-13 01:03:24.815] [exthost] [info] ExtensionService#_doActivateExtension batisteo.vscode-django {"startup":false,"extensionId":{"value":"batisteo.vscode-django","_lower":"batisteo.vscode-django"},"activationEvent":"onLanguage:python"}
+[2021-11-13 01:03:24.815] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/home/vaer/.vscode-oss/extensions/batisteo.vscode-django-1.6.0/out/extension
+[2021-11-13 01:03:25.097] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter {"startup":false,"extensionId":{"value":"ms-toolsai.jupyter","_lower":"ms-toolsai.jupyter"},"activationEvent":"onLanguage:python"}
+[2021-11-13 01:03:25.098] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/home/vaer/.vscode-oss/extensions/ms-toolsai.jupyter-2021.6.832593372/out/client/extension
+[2021-11-13 01:03:25.465] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode {"startup":false,"extensionId":{"value":"VisualStudioExptTeam.vscodeintellicode","_lower":"visualstudioexptteam.vscodeintellicode"},"activationEvent":"onLanguage:python"}
+[2021-11-13 01:03:25.465] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/home/vaer/.vscode-oss/extensions/visualstudioexptteam.vscodeintellicode-1.2.14/dist/intellicode
+[2021-11-13 01:03:25.747] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-11-13 01:03:25.748] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-11-13 01:03:25.807] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-11-13 01:03:25.807] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/git/dist/main
+[2021-11-13 01:03:26.057] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools {"startup":true,"extensionId":{"value":"ms-vscode.cpptools","_lower":"ms-vscode.cpptools"},"activationEvent":"*"}
+[2021-11-13 01:03:26.057] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/home/vaer/.vscode-oss/extensions/ms-vscode.cpptools-1.5.1/dist/main
+[2021-11-13 01:03:26.548] [exthost] [info] ExtensionService#_doActivateExtension sainnhe.everforest {"startup":true,"extensionId":{"value":"sainnhe.everforest","_lower":"sainnhe.everforest"},"activationEvent":"*"}
+[2021-11-13 01:03:26.549] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/home/vaer/.vscode-oss/extensions/sainnhe.everforest-0.1.5/out/extension.js
+[2021-11-13 01:03:26.783] [exthost] [info] ExtensionService#_doActivateExtension TabNine.tabnine-vscode {"startup":true,"extensionId":{"value":"TabNine.tabnine-vscode","_lower":"tabnine.tabnine-vscode"},"activationEvent":"*"}
+[2021-11-13 01:03:26.783] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension
+[2021-11-13 01:03:26.993] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"extensionId":{"value":"vscodevim.vim","_lower":"vscodevim.vim"},"activationEvent":"*"}
+[2021-11-13 01:03:26.993] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/home/vaer/.vscode-oss/extensions/vscodevim.vim-1.21.5/out/extension
+[2021-11-13 01:03:27.258] [exthost] [error] Activating extension TabNine.tabnine-vscode failed due to an error:
+[2021-11-13 01:03:27.258] [exthost] [error] Error: Sorry, the platform 'freebsd' is not supported by TabNine.
+	at /usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:13096
+	at Object.4381 (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:13181)
+	at n (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:147577)
+	at Object.1713 (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:8244)
+	at n (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:147577)
+	at Object.507 (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:10566)
+	at n (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:147577)
+	at Object.5220 (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:19073)
+	at n (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:147577)
+	at Object.9342 (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:5182)
+	at n (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:147577)
+	at Object.9973 (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:16971)
+	at n (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:147577)
+	at Object.9030 (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:51360)
+	at n (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:147577)
+	at Object.8204 (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:49667)
+	at n (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:147577)
+	at /usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:147868
+	at /usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:149653
+	at Object.<anonymous> (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:149674)
+	at Module.u._compile (/usr/local/share/code-oss/resources/app/out/vs/loader.js:4:1311)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1108:10)
+	at Module.load (internal/modules/cjs/loader.js:935:32)
+	at Module._load (internal/modules/cjs/loader.js:776:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12684)
+	at Function.s._load (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:27816)
+	at Function.S._load (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:24532)
+	at Function.a._load (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:96:58822)
+	at Module.require (internal/modules/cjs/loader.js:959:19)
+	at require (internal/modules/cjs/helpers.js:88:18)
+	at Function.t [as __$__nodeRequire] (/usr/local/share/code-oss/resources/app/out/vs/loader.js:5:101)
+	at d._loadCommonJSModule (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:25941)
+	at d._doActivateExtension (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:92:12457)
+	at d._activateExtension (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:92:11516)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async Promise.all (index 4)
+	at async Promise.all (index 0)
+[2021-11-13 01:03:28.082] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2021-11-13 01:03:28.082] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2021-11-13 01:03:28.148] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-11-13 01:03:28.148] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-11-13 01:03:28.265] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-11-13 01:03:28.265] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/typescript-language-features/dist/extension
+[2021-11-13 01:03:28.782] [exthost] [error] Activating extension ms-vscode.cpptools failed due to an error:
+[2021-11-13 01:03:28.782] [exthost] [error] Error: Tipo de sistema operativo no esperado
+    at Function.getConfigurationProvider (/usr/home/vaer/.vscode-oss/extensions/ms-vscode.cpptools-1.5.1/dist/main.js:38975:23)
+    at Object.initialize (/usr/home/vaer/.vscode-oss/extensions/ms-vscode.cpptools-1.5.1/dist/main.js:39405:93)
+    at /usr/home/vaer/.vscode-oss/extensions/ms-vscode.cpptools-1.5.1/dist/main.js:51159:27
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/home/vaer/.vscode-oss/extensions/ms-vscode.cpptools-1.5.1/dist/main.js:51093:58)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-11-13 01:03:30.392] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-11-13 01:03:30.393] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/github/dist/extension.js
+[2021-11-13 01:03:31.003] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"extensionId":{"value":"VisualStudioExptTeam.vscodeintellicode","_lower":"visualstudioexptteam.vscodeintellicode"},"activationEvent":"api"}
+[2021-11-13 01:03:31.003] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/home/vaer/.vscode-oss/extensions/ms-python.python-2021.5.926500501/out/client/extension
+[2021-11-13 01:03:31.618] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-11-13 01:03:31.618] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-11-13 01:03:32.348] [exthost] [info] eager extensions activated
+[2021-11-13 01:03:32.535] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-11-13 01:03:32.535] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-11-13 01:03:32.582] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-11-13 01:03:32.582] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-11-13 01:03:32.601] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-11-13 01:03:32.601] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-11-13 01:03:35.711] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance {"startup":false,"extensionId":{"value":"VisualStudioExptTeam.vscodeintellicode","_lower":"visualstudioexptteam.vscodeintellicode"},"activationEvent":"api"}
+[2021-11-13 01:03:35.712] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/home/vaer/.vscode-oss/extensions/ms-python.vscode-pylance-2021.7.7/dist/extension.bundle.js
+[2021-11-13 01:22:18.029] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2021-11-13 01:22:18.029] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain
+[2021-11-13 02:34:24.398] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5000
+[2021-11-13 02:43:02.630] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5054
+[2021-11-13 03:52:11.927] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-11-13 03:52:13.019] [exthost] [info] exiting with code 0

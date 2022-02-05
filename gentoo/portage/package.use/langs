@@ -1,0 +1,1 @@
+>=dev-lang/rust-1.58.1 system-llvm system-bootstrap rustfmt rust-src parallel-compiler nightly rls clippy

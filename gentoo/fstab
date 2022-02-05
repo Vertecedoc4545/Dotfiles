@@ -1,0 +1,21 @@
+# /dev/sda4 LABEL=broot
+UUID=06901739-2be4-42b8-8601-2a16ba54da4b	/         	btrfs     	defaults,noatime,compress=zstd:3,autodefrag,subvol=/@	0 0
+
+# /dev/sda6 LABEL=boot
+UUID=e3674034-ea83-4894-af85-d3fc5cf6101e	/boot     	btrfs     	defaults,noatime,subvol=/	0 0
+
+# /dev/sda1
+UUID=4136-141F      	/boot/efi 	vfat      	defaults	0 2
+
+# /dev/sda4 LABEL=broot
+UUID=06901739-2be4-42b8-8601-2a16ba54da4b	/home     	btrfs     	rw,noatime,compress=zstd:3,,autodefrag,subvol=/@home	0 0
+
+# /dev/sda4 LABEL=broot
+UUID=06901739-2be4-42b8-8601-2a16ba54da4b	/var      	btrfs     	rw,noatime,compress=zstd:3,autodefrag,subvol=/@var	0 0
+
+# /dev/sda4 LABEL=broot
+UUID=06901739-2be4-42b8-8601-2a16ba54da4b	/srv      	btrfs     	rw,noatime,compress=zstd:3,autodefrag,subvol=/@srv	0 0
+
+# /dev/sda4 LABEL=broot
+UUID=06901739-2be4-42b8-8601-2a16ba54da4b	/.snapshots	btrfs     	rw,noatime,compress=zstd:3,autodefrag,subvol=/@snapshots	0 0
+	

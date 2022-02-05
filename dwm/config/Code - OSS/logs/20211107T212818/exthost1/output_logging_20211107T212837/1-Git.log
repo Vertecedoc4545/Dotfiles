@@ -1,0 +1,24 @@
+Looking for git in: git
+Using git 2.32.0 from git
+> git rev-parse --git-dir
+Open repository: /usr/home/vaer/gcl/CodeArt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/usr/home/vaer/gcl/CodeArt/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /usr/home/vaer/gcl/chadwm
+> git status -z -u
+> git symbolic-ref --short HEAD
+fatal: ref HEAD is not a symbolic ref
+> git rev-parse HEAD
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 5390e74f2399820d723e7be64792cdbd10b08f71
+Opening repository for path='/home/vaer/gcl/CodeArt/.gitignore' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/vaer/gcl/CodeArt/LICENSE' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/vaer/gcl/CodeArt/README.md' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/vaer/gcl/CodeArt/install.py' failed; ex=Error: spawn ENOTDIR

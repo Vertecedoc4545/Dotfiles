@@ -1,0 +1,5 @@
+>=media-libs/gd-2.3.2-r1 fontconfig
+>=dev-python/Babel-2.9.1 -doc 
+>=dev-python/sphinx-4.3.2 -doc
+>=dev-python/six-1.16.0 -doc
+>=sys-boot/grub-2.06-r1 mount

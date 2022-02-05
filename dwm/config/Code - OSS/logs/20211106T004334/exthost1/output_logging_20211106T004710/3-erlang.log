@@ -1,0 +1,8 @@
+erlang extension is active
+starting : escript 
+/home/vaer/.vscode-oss/extensions/pgourlain.erlang-0.8.1/rebar3 compile
+/bin/sh: escript: not found
+escript exit code:127
+starting : erl 
+-noshell -pa src -pa ebin -s int -vscode_port 56280 -s vscode_lsp_entry start 56280 
+spawn /bin/sh ENOENT

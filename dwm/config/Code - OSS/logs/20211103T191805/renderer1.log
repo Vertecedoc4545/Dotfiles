@@ -1,0 +1,2 @@
+[2021-11-03 19:18:08.046] [renderer1] [error] [uncaught exception in main]: e.setListeningForShutdown is not a function: TypeError: e.setListeningForShutdown is not a function
+    at electron/js2c/browser_init.js:113:569

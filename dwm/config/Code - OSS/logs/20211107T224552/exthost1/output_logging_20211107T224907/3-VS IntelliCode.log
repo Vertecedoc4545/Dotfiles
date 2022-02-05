@@ -1,0 +1,5 @@
+The configuration 'editor.suggestSelection' will be set to 'first' since the default value 'recentlyUsed' may cause you to not see IntelliCode completions.
+You can configure this behavior with the setting 'vsintellicode.modify.editor.suggestSelection'.
+The configuration 'editor.suggestSelection' has been set to 'first'.
+Language server is set to "Default". Jedi is used as current language server.
+IntelliCode Python suggests to use Pylance as language server. Details about Pylance: 'https://aka.ms/vscode-pylance'.

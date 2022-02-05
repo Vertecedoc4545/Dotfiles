@@ -1,0 +1,3 @@
+[2021-11-07 23:51:04.605] [renderer1] [error] [uncaught exception in main]: e.setListeningForShutdown is not a function: TypeError: e.setListeningForShutdown is not a function
+    at electron/js2c/browser_init.js:113:569
+[2021-11-07 23:51:45.842] [renderer1] [error] ENOENT: no such file or directory, open '/usr/home/vaer/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/usr/home/vaer/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'

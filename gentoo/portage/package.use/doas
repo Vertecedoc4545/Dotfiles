@@ -1,0 +1,2 @@
+app-admin/doas pam persist
+app-admin/sudo -gcrypt pam ssl -skey

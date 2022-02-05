@@ -1,0 +1,105 @@
+[2021-11-05 23:50:21.784] [exthost] [info] extension host started
+[2021-11-05 23:50:21.839] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-11-05 23:50:21.839] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-11-05 23:50:21.898] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-11-05 23:50:21.898] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/git/dist/main
+[2021-11-05 23:50:22.274] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-11-05 23:50:22.274] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/github/dist/extension.js
+[2021-11-05 23:50:22.321] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-11-05 23:50:22.322] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-11-05 23:50:23.058] [exthost] [info] eager extensions activated
+[2021-11-05 23:50:23.072] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-11-05 23:50:23.073] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-11-05 23:50:23.124] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-11-05 23:50:23.124] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-11-05 23:50:23.142] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-11-05 23:50:23.142] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-11-06 00:01:26.682] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2021-11-06 00:01:26.682] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2021-11-06 00:01:26.899] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-11-06 00:01:26.899] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-11-06 00:01:27.070] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-11-06 00:01:27.070] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/typescript-language-features/dist/extension
+[2021-11-06 00:01:32.572] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:json"}
+[2021-11-06 00:01:32.572] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/extension-editing/dist/extensionEditingMain
+[2021-11-06 00:01:32.723] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"onLanguage:json"}
+[2021-11-06 00:01:32.723] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/npm/dist/npmMain
+[2021-11-06 00:02:31.118] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-11-06 00:02:32.147] [exthost] [info] exiting with code 0
+[2021-11-06 00:02:33.014] [exthost] [info] extension host started
+[2021-11-06 00:02:33.063] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-11-06 00:02:33.063] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-11-06 00:02:33.066] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-11-06 00:02:33.066] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/git/dist/main
+[2021-11-06 00:02:33.181] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-11-06 00:02:33.181] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/github/dist/extension.js
+[2021-11-06 00:02:33.236] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-11-06 00:02:33.236] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-11-06 00:02:34.113] [exthost] [info] eager extensions activated
+[2021-11-06 00:02:34.115] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-11-06 00:02:34.115] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-11-06 00:02:34.133] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-11-06 00:02:34.133] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-11-06 00:02:34.137] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-11-06 00:02:34.138] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-11-06 00:02:59.014] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools {"startup":false,"extensionId":{"value":"ms-vscode.cpptools","_lower":"ms-vscode.cpptools"},"activationEvent":"*"}
+[2021-11-06 00:02:59.014] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vaer/.vscode-oss/extensions/ms-vscode.cpptools-1.5.1/dist/main
+[2021-11-06 00:02:59.192] [exthost] [error] Activating extension ms-vscode.cpptools failed due to an error:
+[2021-11-06 00:02:59.192] [exthost] [error] Error: Tipo de sistema operativo no esperado
+	at Function.getConfigurationProvider (/usr/home/vaer/.vscode-oss/extensions/ms-vscode.cpptools-1.5.1/dist/main.js:38975:23)
+	at Object.initialize (/usr/home/vaer/.vscode-oss/extensions/ms-vscode.cpptools-1.5.1/dist/main.js:39405:93)
+	at /usr/home/vaer/.vscode-oss/extensions/ms-vscode.cpptools-1.5.1/dist/main.js:51159:27
+	at Generator.next (<anonymous>)
+	at fulfilled (/usr/home/vaer/.vscode-oss/extensions/ms-vscode.cpptools-1.5.1/dist/main.js:51093:58)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-11-06 00:03:07.042] [exthost] [info] ExtensionService#_doActivateExtension kiteco.kite {"startup":false,"extensionId":{"value":"kiteco.kite","_lower":"kiteco.kite"},"activationEvent":"*"}
+[2021-11-06 00:03:07.042] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vaer/.vscode-oss/extensions/kiteco.kite-0.147.0/dist/kite-extension
+[2021-11-06 00:21:04.356] [exthost] [info] ExtensionService#_doActivateExtension TabNine.tabnine-vscode {"startup":false,"extensionId":{"value":"TabNine.tabnine-vscode","_lower":"tabnine.tabnine-vscode"},"activationEvent":"*"}
+[2021-11-06 00:21:04.356] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension
+[2021-11-06 00:21:04.431] [exthost] [error] Activating extension TabNine.tabnine-vscode failed due to an error:
+[2021-11-06 00:21:04.431] [exthost] [error] Error: Sorry, the platform 'freebsd' is not supported by TabNine.
+	at /usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:13096
+	at Object.4381 (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:13181)
+	at n (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:147577)
+	at Object.1713 (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:8244)
+	at n (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:147577)
+	at Object.507 (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:10566)
+	at n (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:147577)
+	at Object.5220 (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:19073)
+	at n (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:147577)
+	at Object.9342 (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:5182)
+	at n (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:147577)
+	at Object.9973 (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:16971)
+	at n (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:147577)
+	at Object.9030 (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:51360)
+	at n (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:147577)
+	at Object.8204 (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:49667)
+	at n (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:147577)
+	at /usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:147868
+	at /usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:149653
+	at Object.<anonymous> (/usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.33/out/extension.js:17:149674)
+	at Module.u._compile (/usr/local/share/code-oss/resources/app/out/vs/loader.js:4:1311)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1108:10)
+	at Module.load (internal/modules/cjs/loader.js:935:32)
+	at Module._load (internal/modules/cjs/loader.js:776:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12684)
+	at Function.s._load (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:27816)
+	at Function.S._load (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:24532)
+	at Function.a._load (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:96:58822)
+	at Module.require (internal/modules/cjs/loader.js:959:19)
+	at require (internal/modules/cjs/helpers.js:88:18)
+	at Function.t [as __$__nodeRequire] (/usr/local/share/code-oss/resources/app/out/vs/loader.js:5:101)
+	at d._loadCommonJSModule (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:25941)
+	at d._doActivateExtension (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:92:12457)
+	at d._activateExtension (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:92:11516)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async Promise.all (index 0)
+	at async d.$activate (/usr/local/share/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:92:19546)
+[2021-11-06 00:21:04.467] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2021-11-06 00:21:04.467] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2021-11-06 00:21:04.469] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-11-06 00:21:04.469] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-11-06 00:21:04.489] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-11-06 00:21:04.489] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/local/share/code-oss/resources/app/extensions/typescript-language-features/dist/extension
+[2021-11-06 00:28:37.276] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-11-06 00:28:38.348] [exthost] [info] exiting with code 0

@@ -1,0 +1,74 @@
+Looking for git in: git
+Using git 2.32.0 from git
+> git rev-parse --git-dir
+Open repository: /usr/home/vaer/gcl/CodeArt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/usr/home/vaer/gcl/CodeArt/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :installer/linux.py
+> git show --textconv :installer/freebsd.py
+> git ls-files --stage -- /usr/home/vaer/gcl/CodeArt/installer/linux.py
+> git ls-files --stage -- /usr/home/vaer/gcl/CodeArt/installer/freebsd.py
+> git cat-file -s d229b42ae1a80685e363a00ba343243a1b7bc824
+> git show --textconv :installer/linux.py
+> git ls-files --stage -- /usr/home/vaer/gcl/CodeArt/installer/linux.py
+> git cat-file -s d229b42ae1a80685e363a00ba343243a1b7bc824
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /usr/home/vaer/gcl/CodeArt/installer/linux.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /usr/home/vaer/gcl/CodeArt/install.py
+> git show --textconv :install.py
+> git ls-files --stage -- /usr/home/vaer/gcl/CodeArt/install.py
+> git cat-file -s d1d3bc1d088f1ccaa731100ce0d51693185ec202
+> git show --textconv :installer/freebsd.py
+> git ls-files --stage -- /usr/home/vaer/gcl/CodeArt/installer/freebsd.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /usr/home/vaer/gcl/CodeArt/installer/freebsd.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /usr/home/vaer/gcl/CodeArt/installer/freebsd.py
+> git show --textconv :install.py
+> git ls-files --stage -- /usr/home/vaer/gcl/CodeArt/install.py
+> git cat-file -s d1d3bc1d088f1ccaa731100ce0d51693185ec202
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/usr/home/vaer/gcl/CodeArt/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :installer/macOS.py
+> git ls-files --stage -- /usr/home/vaer/gcl/CodeArt/installer/macOS.py
+> git cat-file -s be0962f03fb4cb8b6a2ad10ed9bdf0b259d9fd29
+> git show --textconv :installer/linux.py
+> git ls-files --stage -- /usr/home/vaer/gcl/CodeArt/installer/linux.py
+> git cat-file -s d229b42ae1a80685e363a00ba343243a1b7bc824
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /usr/home/vaer/gcl/CodeArt/installer/macOS.py
+> git show --textconv :installer/macOS.py
+> git ls-files --stage -- /usr/home/vaer/gcl/CodeArt/installer/macOS.py
+> git cat-file -s be0962f03fb4cb8b6a2ad10ed9bdf0b259d9fd29
+> git show --textconv :installer/linux.py
+> git ls-files --stage -- /usr/home/vaer/gcl/CodeArt/installer/linux.py
+> git cat-file -s d229b42ae1a80685e363a00ba343243a1b7bc824
+> git show --textconv :installer/macOS.py
+> git ls-files --stage -- /usr/home/vaer/gcl/CodeArt/installer/macOS.py
+> git cat-file -s be0962f03fb4cb8b6a2ad10ed9bdf0b259d9fd29
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /usr/home/vaer/gcl/CodeArt/installer/macOS.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /usr/home/vaer/gcl/CodeArt/installer/macOS.py
+> git show --textconv :installer/linux.py
+> git ls-files --stage -- /usr/home/vaer/gcl/CodeArt/installer/linux.py
+> git cat-file -s d229b42ae1a80685e363a00ba343243a1b7bc824
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/usr/home/vaer/gcl/CodeArt/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/usr/home/vaer/gcl/CodeArt/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template

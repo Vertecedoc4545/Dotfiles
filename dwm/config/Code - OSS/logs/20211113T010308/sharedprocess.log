@@ -1,0 +1,7 @@
+[2021-11-13 01:03:24.939] [sharedprocess] [info] Installing extension: tabnine.tabnine-vscode
+[2021-11-13 01:03:25.950] [sharedprocess] [info] Downloaded extension: tabnine.tabnine-vscode /usr/home/vaer/.config/Code - OSS/CachedExtensionVSIXs/tabnine.tabnine-vscode-3.4.35
+[2021-11-13 01:03:26.216] [sharedprocess] [info] Extracted extension to /usr/home/vaer/.vscode-oss/extensions/.60fe0319-ea52-4d66-87ee-3a965bbf0b28: tabnine.tabnine-vscode
+[2021-11-13 01:03:26.284] [sharedprocess] [info] Renamed to /usr/home/vaer/.vscode-oss/extensions/tabnine.tabnine-vscode-3.4.35
+[2021-11-13 01:03:26.288] [sharedprocess] [info] Installation completed. tabnine.tabnine-vscode
+[2021-11-13 01:03:26.448] [sharedprocess] [info] Extensions installed successfully: tabnine.tabnine-vscode
+[2021-11-13 01:03:58.566] [sharedprocess] [info] Starting to clean up unused language packs.

@@ -1,0 +1,6 @@
+x11-base/xorg-server  -elogind udev xorg xvfb -debug -minimal -selinux suid -systemd -test -unwind -xcsecurity xephyr xnest
+x11-wm/dwm  savedconfig
+>=sci-libs/libqalculate-3.22.0 curl
+sys-apps/xdg-desktop-portal  geolocation screencast
+media-sound/pulseaudio equalizer gstreamer jack
+media-video/pipewire extra gstreamer jack-client -jack-sdk pipewire-alsa -systemd -test v4l

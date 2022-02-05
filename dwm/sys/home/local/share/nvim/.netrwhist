@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/usr/home/vaer/gcl/CodeArt/installer'
+let g:netrw_dirhist_5='/usr/home/vaer/gcl/chadwm/chadwm'
+let g:netrw_dirhist_4='/usr/home/vaer/.dwm'
+let g:netrw_dirhist_3='/usr/home/vaer/.local/share/omf/pkg/vcs/functions'
+let g:netrw_dirhist_2='/usr/home/vaer/.local/share/omf/pkg/vcs'
+let g:netrw_dirhist_1='/usr/home/vaer/.local/share/omf/pkg'
+let g:netrw_dirhist_0='/usr/home/vaer/.local/share/omf/themes/chain/functions'
+let g:netrw_dirhist_9='/usr/home/vaer/.local/share/omf/themes/chain'
+let g:netrw_dirhist_8='/usr/home/vaer/.local/share/omf/themes/chain/functions'
+let g:netrw_dirhist_7='/usr/home/vaer/.local/share/omf/themes/chain'

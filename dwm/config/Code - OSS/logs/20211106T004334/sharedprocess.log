@@ -1,0 +1,14 @@
+[2021-11-06 00:43:39.554] [sharedprocess] [info] Deleted from disk kiteco.kite /home/vaer/.vscode-oss/extensions/kiteco.kite-0.147.0
+[2021-11-06 00:44:17.453] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-11-06 00:46:51.632] [sharedprocess] [info] Installing extension: pgourlain.erlang
+[2021-11-06 00:47:00.949] [sharedprocess] [info] Downloaded extension: pgourlain.erlang /home/vaer/.config/Code - OSS/CachedExtensionVSIXs/pgourlain.erlang-0.8.1
+[2021-11-06 00:47:01.198] [sharedprocess] [info] Extracted extension to /home/vaer/.vscode-oss/extensions/.164d4403-74df-4854-8116-a38dd15206d8: pgourlain.erlang
+[2021-11-06 00:47:01.230] [sharedprocess] [info] Renamed to /home/vaer/.vscode-oss/extensions/pgourlain.erlang-0.8.1
+[2021-11-06 00:47:01.232] [sharedprocess] [info] Installation completed. pgourlain.erlang
+[2021-11-06 00:47:01.248] [sharedprocess] [info] Extensions installed successfully: pgourlain.erlang
+[2021-11-06 01:29:18.485] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2021-11-06 01:29:21.043] [sharedprocess] [info] Downloaded extension: vscodevim.vim /home/vaer/.config/Code - OSS/CachedExtensionVSIXs/vscodevim.vim-1.21.5
+[2021-11-06 01:29:21.377] [sharedprocess] [info] Extracted extension to /home/vaer/.vscode-oss/extensions/.a2b69427-9616-4f69-a508-21d98704baba: vscodevim.vim
+[2021-11-06 01:29:21.427] [sharedprocess] [info] Renamed to /home/vaer/.vscode-oss/extensions/vscodevim.vim-1.21.5
+[2021-11-06 01:29:21.436] [sharedprocess] [info] Installation completed. vscodevim.vim
+[2021-11-06 01:29:21.500] [sharedprocess] [info] Extensions installed successfully: vscodevim.vim
